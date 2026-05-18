@@ -5,5 +5,53 @@
 {% endblock %}
 
 {% block content %}
-    <h1>Welcome to my blog </h1>
+    <header id="main-navigation">
+        <h1> <a href="">Ashik's Blog</a> </h1>
+
+        <nav>
+            <a href="">All posts </a>
+        </nav>
+    </header>
+
+    <section id="welcome">
+        <header>
+            <img src="" alt="Ashik - The author of this blog" />
+            <h2> ASHIK'S BLOG </h2>
+        </header>
+        <p>Hello, I am Ashik and I love to blog about tech and the world!</p>
+    </section>
+
+    <section id="latest-post">
+        <h2>My Latest Thoughts </h2>
+
+        <ul>
+            <li>
+                <article class="post">
+                    <a href=""> 
+                        <img src="" alt="Mountain Hiking"/>
+                        <div class="post__content">
+                            <h3>Mountain Hicking </h3>
+                            <p>There's nothing like the views you get when hiking in the mountains! And I wasn't even prepared for 
+                                what happened while I was enjoying the view! 
+                            </p>
+                        </div>
+                    </a>
+                </article>
+
+            </li>
+        </ul>
+
+    </section>
+
+    <section id="about">
+        <h2>What I Do </h2>
+        <p>I am a competitive programmer, I love to solve in codeforces and other CP platforms.
+             I enjoy help others in learning competitive programming. 
+        </p>
+        <p>
+            My goal is to keep on growing as a developer - and if I could help you do the same, I'd be very happy.
+        </p>
+    </section>
+
+
 {% endblock %}
