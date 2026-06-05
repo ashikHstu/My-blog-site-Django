@@ -2,7 +2,6 @@ from django.shortcuts import render
 from datetime import date
 
 all_posts = [
-    {
         "slug":"hike-in-the-mountains",
         "image": "mountains.jpg",
         "author": "Ashik",
